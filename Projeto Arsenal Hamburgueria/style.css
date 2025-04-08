@@ -1,0 +1,71 @@
+:root {
+    --cor-fundo: #000000; /* Preto */
+    --cor-texto: #ffffff; /* Branco */
+    --cor-link: #1e90ff; /* Azul vibrante */
+    --cor-link-hover: #ff4500; /* Laranja avermelhado */
+}
+
+/* Estilo global */
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navegação */
+nav {
+    background-color: #111111;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--cor-texto);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--cor-link-hover);
+}
+
+/* Conteúdo principal */
+main {
+    padding: 40px 20px;
+}
+
+/* Títulos */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Parágrafos */
+p {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+/* Imagens */
+img {
+    max-width: 90%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px;
+}
